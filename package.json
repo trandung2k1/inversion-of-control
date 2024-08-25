@@ -1,0 +1,38 @@
+{
+    "name": "inversion-of-control",
+    "version": "1.0.0",
+    "description": "Inversion of Control package",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "dev:example": "nodemon src/example/index.ts"
+    },
+    "keywords": [
+        "inversion-of-control",
+        "dependency-injection"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/trandung2k1/inversion-of-control.git"
+    },
+    "bugs": {
+        "url": "https://github.com/trandung2k1/inversion-of-control/issues"
+    },
+    "homepage": "https://github.com/trandung2k1/inversion-of-control#readme",
+    "author": "trandung2k1",
+    "license": "MIT",
+    "files": [
+        "lib/**/*"
+    ],
+    "devDependencies": {
+        "@types/node": "^22.5.0",
+        "nodemon": "^3.1.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "reflect-metadata": "^0.2.2"
+    }
+}
