@@ -75,5 +75,3 @@ container.register('UserController', UserController);
 const userController = container.resolveController < UserController > 'UserController';
 console.log(userController.getUser());
 ```
-
-git remote add origin https://github.com/trandung2k1/inversion-of-control.git
